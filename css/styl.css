@@ -68,18 +68,15 @@ ul {
 /*********************HEADER*********************/
 
 .header {
+	/*border-bottom: 1px solid #ECECEC;*/
+}
+
+.header .container {
 	display: flex;
 	align-items: center;
 
 	border-bottom: 1px solid #ECECEC;
 }
-
-/*.header .container {
-	display: flex;
-	align-items: center;
-
-	border-bottom: 1px solid #ECECEC;
-}*/
 
 .header-nav {
 	display: flex;
@@ -228,21 +225,16 @@ ul {
 
 .heading {
 	background: #2F303A;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
 
-/*.heading .container {
+.heading .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-
-}*/
+}
 
 .heading-title {
 	font-weight: 900;
@@ -283,7 +275,7 @@ ul {
 /*********************FEATURES*********************/
 
 .features {
-	background-color: #E5E5E5;
+	/*background-color: #E5E5E5;*/
 }
 
 .features-list {
@@ -320,7 +312,7 @@ ul {
 /*********************ACTIVITY*********************/
 
 .activity {
-	background: #E5E5E5;
+	/*background: #E5E5E5;*/
 
 	padding-bottom: 94px;
 }
@@ -418,7 +410,7 @@ ul {
 /*********************PORTFOLIO*********************/
 
 .portfolio {
-	background: #E5E5E5;
+	
 }
 
 .portfolio-button-list {
